@@ -8,6 +8,10 @@
 </p>
 
 ## About Laravel
+## Updated by Branden for collaboration test
+
+## Author : Janial Bacani, Basco Branden
+## Updated by Janial for collaboration test
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
