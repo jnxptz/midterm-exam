@@ -13,11 +13,71 @@
 ## Author : Janial Bacani, Basco Branden
 ## Updated by Janial for collaboration test
 
-# A Transaction Processing System (TPS) is a computerized system used to record, process, and manage routine business transactions efficiently and accurately. It handles data, such as sales, payments, and orders, ensuring that each transaction is completed successfully and stored securely. TPS helps organizations maintain up-to-date records, support daily operations, and improve decision-making through reliable and real-time data processing.
+# Description
+### A Transaction Processing System (TPS) is a computerized system used to record, process, and manage routine business transactions efficiently and accurately. It handles data, such as sales, payments, and orders, ensuring that each transaction is completed successfully and stored securely. TPS helps organizations maintain up-to-date records, support daily operations, and improve decision-making through reliable and real-time data processing.
 
+# Objectives
+### Transaction Processing System (TPS) that efficiently records, manages, and monitors business transactions. This system is designed to assist businesses in tracking products, sales, and transactions in real time, ensuring accurate data management, organized records, and streamlined operations.
 
+# Features
+### The primary objective of the Transaction Processing System (TPS) is to provide accurate and organized information regarding business operations. The system displays the total number of products, total transactions, overall sales, and items with low stock levels. In the Products module, users can view a comprehensive list of available products, including details such as product name, price, stock quantity, and purchase amount. The system also allows authorized users to add new products by specifying essential information such as the product name, price, and quantity. Meanwhile, the Transactions module records and presents transaction details, including the buyer’s identification number, name, purchased items, quantity, total amount, and date of purchase. This ensures efficient monitoring and management of sales activities within the organization.
 
+# Installation Instruction
+### The following steps explain how to set up and run the Transaction Processing System project, which is built using the Laravel framework:
 
+1. Install PHP and Composer 
+- Ensure that PHP (version 8.0 or higher) and Composer are installed on your computer. Composer is required to manage Laravel dependencies.
+
+2. Install Dependencies:
+- Install all Laravel dependencies using Composer:
+
+3. Set Up Environment File:
+- Copy the example environment file and configure your database and other settings:
+- Open the .env file and update the following settings according to your database configuration:
+
+5. Generate Application Key:
+- Generate a unique application key for Laravel:
+
+6.  Run Migrations (Set Up Database):
+- Create the necessary tables in your database:
+
+7. Run the Laravel Development Server:
+- Start the project locally:
+
+# Usage
+1. Access the System:
+
+- Open your web browser and go to http://127.0.0.1:8000 (or the URL where the system is hosted).
+
+2. View Products:
+
+- Go to the Products tab to see a list of available products.
+
+- Each product displays the name, price, stock quantity, and available purchase quantity.
+
+3. Add a New Product:
+
+- Click the Add Product button.
+
+- Enter the product name, price, and quantity, then save.
+
+4. Make a Transaction:
+
+- Select the product(s) the buyer wants to purchase.
+
+- Enter the quantity and confirm the transaction.
+
+-  The system will automatically calculate the total amount and update the stock.
+
+5. View Transactions:
+
+- Go to the Transactions tab to see a list of all purchases.
+
+- Each transaction shows the buyer’s ID, name, purchased products, quantity, total amount, and date of purchase.
+
+6. Check Low Stock:
+
+- The system highlights products with low stock, allowing you to restock in time.
 
 
 
