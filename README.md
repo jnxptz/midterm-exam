@@ -13,6 +13,17 @@
 ## Author : Janial Bacani, Basco Branden
 ## Updated by Janial for collaboration test
 
+# A Transaction Processing System (TPS) is a computerized system used to record, process, and manage routine business transactions efficiently and accurately. It handles data, such as sales, payments, and orders, ensuring that each transaction is completed successfully and stored securely. TPS helps organizations maintain up-to-date records, support daily operations, and improve decision-making through reliable and real-time data processing.
+
+
+
+
+
+
+
+
+
+
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
 - [Simple, fast routing engine](https://laravel.com/docs/routing).
