@@ -79,9 +79,33 @@
 
 - The system highlights products with low stock, allowing you to restock in time.
 
+# Screeenshots 
 
+```<?php
 
+namespace App\Http\Controllers;
 
+use App\Models\Product;
+use App\Models\Transaction;
+
+class DashboardController extends Controller
+{
+    public function index()
+    {
+        $totalProducts = Product::count();
+        $totalTransactions = Transaction::count();
+        $totalSales = Transaction::sum('total');
+        $lowStock = Product::where('stock', '<=', 5)->count();
+
+        return view('dashboard', compact(
+            'totalProducts',
+            'totalTransactions',
+            'totalSales',
+            'lowStock'
+        ));
+    }
+}
+```
 
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
