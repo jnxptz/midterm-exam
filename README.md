@@ -89,7 +89,7 @@ Follow these steps to set up and run the **Transaction Processing System** built
 
 ## Code Snippets
 
-## 1.Dashboard Controller
+### 1. Dashboard Controller
 ```bash
 <?php
 
@@ -118,7 +118,7 @@ class DashboardController extends Controller
 
 ```
 
-## 2.Product Controller
+### 2. Product Controller
 ```bash
 <?php
 
@@ -177,7 +177,7 @@ class ProductController extends Controller
 }
 ```
 
-## 3.Transaction Controller
+### 3. Transaction Controller
 ```bash 
 <?php
 
