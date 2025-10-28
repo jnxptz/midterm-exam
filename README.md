@@ -1,5 +1,4 @@
-## Author : Janial Bacani, Basco Branden
-## Updated by Janial for collaboration test
+## Author : Janial Bacani
 
 # Description
 ### A Transaction Processing System (TPS) is a computerized system used to record, process, and manage routine business transactions efficiently and accurately. It handles data, such as sales, payments, and orders, ensuring that each transaction is completed successfully and stored securely. TPS helps organizations maintain up-to-date records, support daily operations, and improve decision-making through reliable and real-time data processing.
