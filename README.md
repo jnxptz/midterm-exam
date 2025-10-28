@@ -71,7 +71,7 @@ Follow these steps to set up and run the **Transaction Processing System** built
 
 ---
 
-# Usage
+## Usage
 
 1. Access the System via the provided URL.
 
@@ -87,7 +87,7 @@ Follow these steps to set up and run the **Transaction Processing System** built
 
 ---
 
-# Code Snippets
+## Code Snippets
 
 ## 1.Dashboard Controller
 ```bash
